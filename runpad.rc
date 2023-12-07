@@ -1,0 +1,8 @@
+# Create a kind cluster
+kind-up: kind create cluster
+
+# Delete the cluster
+kind-down: kind delete cluster
+
+# List all CRDs
+list-crd: kubectl get crds
