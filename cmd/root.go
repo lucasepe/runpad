@@ -35,7 +35,7 @@ func Run(ctx context.Context) error {
 		fmt.Fprintln(fs.Output(), "           ┓")
 		fmt.Fprintln(fs.Output(), "┏┓┓┏┏┓┏┓┏┓┏┫")
 		fmt.Fprintln(fs.Output(), "┛ ┗┻┛┗┣┛┗┻┗┻")
-		fmt.Fprintf(fs.Output(), "      ┛  (bld: %s)\n", bld)
+		fmt.Fprintf(fs.Output(), "      ┛  (%s)\n", bld)
 		fmt.Fprintln(fs.Output())
 		fmt.Fprintln(fs.Output(), "Create a menu to run commands.")
 		fmt.Fprintln(fs.Output())
