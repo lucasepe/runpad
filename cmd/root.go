@@ -37,7 +37,7 @@ func Run(ctx context.Context) error {
 		fmt.Fprintln(fs.Output(), "┛ ┗┻┛┗┣┛┗┻┗┻")
 		fmt.Fprintf(fs.Output(), "      ┛  (%s)\n", bld)
 		fmt.Fprintln(fs.Output())
-		fmt.Fprintln(fs.Output(), "Create a menu to run commands.")
+		fmt.Fprintln(fs.Output(), "Create a GUI menu to run commands.")
 		fmt.Fprintln(fs.Output())
 		fmt.Fprintln(fs.Output(), "» crafted with passion by Luca Sepe <https://github.com/lucasepe/runpad>")
 
