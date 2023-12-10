@@ -25,4 +25,8 @@ Upon parsing the `runpad.rc` file, this tool generates a window with a menu. Eac
 
 ![](_screenshot.png)
 
+## How to install
 
+```sh
+$ go install github.com/lucasepe/runpad@latest 
+```
