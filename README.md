@@ -1,6 +1,6 @@
 # RunPad
 
-RunPad is a tool designed to execute commands by utilizing a configuration file named `runpad.rc` located in the current working directory.
+RunPad is a toy tool designed to execute commands by utilizing a configuration file named `runpad.rc` located in the current working directory.
 
 The `runpad.rc` file follows a simple structure:
 
@@ -22,4 +22,7 @@ list-crd: kubectl get crds
 ```
 
 Upon parsing the `runpad.rc` file, this tool generates a window with a menu. Each menu item corresponds to a label in the configuration file. When a specific item is selected from the menu, `runpad` executes the associated command, providing a straightforward and efficient way to manage and execute predefined commands.
+
+![](_screenshot.png)
+
 
